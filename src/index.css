@@ -1,0 +1,50 @@
+ .card_name{
+  color: blue;
+  /* font-size: 5em; */
+ }
+ .card{
+  border-style: solid;
+  height: 15em;
+  width: 15em;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  margin: 2%;
+  :hover{
+    font-size: 2rem;
+  }
+  background-color: bisque;
+ }
+
+ .flex{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .card_name{
+  flex-grow: 1;
+  background-color: red;
+  font-size: 3rem;
+ }
+ .card_small{
+  background-color: green;
+  font-size: 2rem;
+ }
+ .card_main{
+  width:10rem;
+ }
+ /* .section{
+  
+ } */
+ ul {
+  list-style-type: none;
+}
+#heading{
+  font-size: 5rem;
+  margin-left: 30%; 
+}
+body{
+  background-color:rgb(195, 120, 120);
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 10rem;
+}
